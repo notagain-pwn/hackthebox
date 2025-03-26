@@ -25,7 +25,7 @@ Four interesting lines here:
 - `read(0, &local_88, 0x66);` → reads 102 bytes into the buffer
 - `pcVar1 = strstr((char *)&local_88, "Quack Quack ");` → finds the position of our marker string
 - `printf("Quack Quack %s, ready to fight the Duck?\n\n> ", pcVar1 + 0x20);` → prints data starting 32 bytes after our string (leak!)
-- `read(0,&local_68,0x6a);` => Overflow possible.
+- `read(0, &local_68, 0x6a);` → overflow is possible here (stack write past the buffer)
 
 This 0x20 offset lets us leak data from the stack, starting 0x20 bytes after our "Quack Quack ", which helps us reach part of the canary.
 
