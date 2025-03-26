@@ -5,6 +5,10 @@ tags: [CTF, binary exploitation, stack canary, ret2win, pwn]
 
 # Quack Quack 🦆
 
+![pwntools](https://img.shields.io/badge/pwntools-✔️-brightgreen)
+![Difficulty](https://img.shields.io/badge/difficulty-Easy-blue)
+![Category](https://img.shields.io/badge/category-Pwn-orange)
+
 On the quest to reclaim the Dragon's Heart, the wicked Lord Malakar has cursed the villagers, turning them into ducks! Join Sir Alaric in finding a way to defeat them without causing harm.
 
 **Quack Quack**, it's time to face the Duck!
