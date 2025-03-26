@@ -22,9 +22,9 @@ We can see that there is a canary. Then, in Ghidra:
 We can see that in the first input, we must put "Quack Quack ", otherwise the binary displays "Where are your Quack Manners?!" and exit.
 
 Four interesting lines here:
-- `read(0,&local_88,0x66);`
-- `pcVar1 = strstr((char *)&local_88,"Quack Quack ");` -> take the position of our "Quack Quack "
-- `printf("Quack Quack %s, ready to fight the Duck?\n\n> ",pcVar1 + 0x20);` -> Display the stuff at this position +0x20. Interesting, we can leak something! 
+- `read(0, &local_88, 0x66);` → reads 102 bytes into the buffer
+- `pcVar1 = strstr((char *)&local_88, "Quack Quack ");` → finds the position of our marker string
+- `printf("Quack Quack %s, ready to fight the Duck?\n\n> ", pcVar1 + 0x20);` → prints data starting 32 bytes after our string (leak!)
 - `read(0,&local_68,0x6a);` => Overflow possible.
 
 This 0x20 offset lets us leak data from the stack, starting 0x20 bytes after our "Quack Quack ", which helps us reach part of the canary.
@@ -153,3 +153,4 @@ By abusing a format-based leak and a stack canary bypass, we successfully redire
  
 Sir Alaric wins again — without harming a single duck. 🦆✨
 
+Final result: a clean ret2win exploit using stack leak, canary bypass, and precise buffer control — all thanks to a duck 🦆
