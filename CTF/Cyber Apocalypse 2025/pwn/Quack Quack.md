@@ -21,12 +21,13 @@ We can see that there is a canary. Then, in Ghidra:
 
 We can see that in the first input, we must put "Quack Quack ", otherwise the binary displays "Where are your Quack Manners?!" and exit.
 
-Three interesting lines here:
+Four interesting lines here:
 - `read(0,&local_88,0x66);`
 - `pcVar1 = strstr((char *)&local_88,"Quack Quack ");` -> take the position of our "Quack Quack "
 - `printf("Quack Quack %s, ready to fight the Duck?\n\n> ",pcVar1 + 0x20);` -> Display the stuff at this position +0x20. Interesting, we can leak something! 
+- `read(0,&local_68,0x6a);` => Overflow possible.
 
-This offset lets us leak data from the stack, starting 0x20 bytes after our "Quack Quack ", which helps us reach part of the canary.
+This 0x20 offset lets us leak data from the stack, starting 0x20 bytes after our "Quack Quack ", which helps us reach part of the canary.
 
 Let's try to push a string with a specific length, and "Quack Quack " at the very end: 
 
@@ -57,15 +58,57 @@ canary_val = u64(canary)
 log.success(f"Canary leak : {hex(canary_val)}")
 ```
 
-
-
 ![image](https://github.com/user-attachments/assets/dcc251ad-8d84-4e01-8e58-7bc934893c4f)
 
-Ok, now we leaked the canary, we're able to overwrite RIP and take control of the win function, "duck_attack": 
+Ok, now we leaked the canary, we're able to overwrite RIP and take control of the win function, "duck_attack".
+
+## Stack Overflow Explained 🧵
+
+Why does the second read() allow us to overwrite the stack canary and return address?
+
+Let’s take a closer look at the vulnerable function:
+
+```
+read(0, &local_88, 0x66); // First read (102 bytes)
+...
+read(0, &local_68, 0x6a); // Second read (106 bytes) - the overflow
+```
+
+## 📌 Stack layout (simplified)
+
+Here’s how the local variables are laid out on the stack:
+
+```
+|---------------------| <- higher address
+|    local_88         |  ← 120 bytes total buffer (15 × 8 bytes)
+|---------------------|
+|     local_10        |  ← stack canary
+|---------------------|
+|     saved RBP       |
+|---------------------|
+|     return address  | <- lower address
+```
+The stack grows downward in memory (higher → lower addresses)
+
+Now, look at the second read:
+
+```
+read(0, &local_68, 0x6a); // 106 bytes
+```
+
+We're writing **106 bytes** starting from `&local_68`, which is **not the start** of the buffer — it's **already 32 bytes down** (because `local_88` to `local_68` spans 4 × 8 bytes = 32 bytes).
+
+So how much space is left?
+- Total buffer size = 120 bytes
+- Offset to local_68 = 32 bytes
+- Remaining space = 120 - 32 = 88 bytes
+- Data written = 106 bytes
+    → Overflow of 18 bytes
+
 
 ![image](https://github.com/user-attachments/assets/d49253e1-4c63-4377-8590-72eb7080e0fa)
 
-Located at the address "0x0040137f" **(NO PIE)**
+The win function, "duck_attack", located at the address "0x0040137f" **(NO PIE)**
 
 ## Full exploit 🎯
 
