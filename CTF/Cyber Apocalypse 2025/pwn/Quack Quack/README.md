@@ -151,7 +151,7 @@ p.sendafter(b'> ', payload2)
 
 p.interactive()
 ```
-(More polished exploit [here](https://github.com/notagain-pwn/hackthebox/blob/main/CTF/Cyber%20Apocalypse%202025/pwn/Quack%20Quack/exploit.py))
+(More polished exploit here: [exploit.py](https://github.com/notagain-pwn/hackthebox/blob/main/CTF/Cyber%20Apocalypse%202025/pwn/Quack%20Quack/exploit.py))
 
 ![image](https://github.com/user-attachments/assets/76a2911b-254b-4b15-8c70-a74796145322)
 
