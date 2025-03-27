@@ -94,7 +94,7 @@ io.sendafter(b"song:", b"0")  # content doesn't matter
 
 print(io.recvall())
 ```
-(No fancy CLI or remote options — just straight to the win.)
+(More polished exploit here: https://github.com/notagain-pwn/hackthebox/blob/main/CTF/Cyber%20Apocalypse%202025/pwn/Blessing/exploit.py)
 
 ![Challenge solved - flag output](https://github.com/user-attachments/assets/6f37ba71-2977-45fe-b51f-01f7aee406d3)
 
