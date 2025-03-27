@@ -14,7 +14,7 @@ On the quest to reclaim the Dragon's Heart, the wicked Lord Malakar has cursed t
 
 **Quack Quack**, it's time to face the Duck!
 
-## Inspection 🕵️
+## Initial Inspection 🕵️
 
 First we can check the protections enabled on the binary:
 
