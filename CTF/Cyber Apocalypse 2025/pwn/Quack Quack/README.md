@@ -16,7 +16,7 @@ On the quest to reclaim the Dragon's Heart, the wicked Lord Malakar has cursed t
 
 ## 📚 Table of Contents
 
-- [Initial Inspection 🕵️](#initial-inspection)
+- [Initial Inspection 🕵️](#initial-inspection-%EF%B8%8F)
 - [Key observation 🔍](#key-observation-)
 - [Vulnerabilities 🧠](#vulnerabilities-)
 - [Stack Overflow Explained 🧵](#stack-overflow-explained-)
