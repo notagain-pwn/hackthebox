@@ -15,7 +15,7 @@ tags: [CTF, reversing, ncurses, terminal size, debugging, display logic]
 - [Challenge Overview 🧠](#challenge-overview-)
 - [Initial Analysis 🔍](#initial-analysis-)
 - [The Hidden Check 🧩](#the-hidden-check-)
-- [Getting the Flag 🖥️](#getting-the-flag-)
+- [Getting the Flag 🖥️](#getting-the-flag-%EF%B8%8F)
 - [Conclusion 🧾](#conclusion-)
 
 ## Challenge Overview 🧠
