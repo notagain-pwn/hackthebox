@@ -17,7 +17,7 @@ Each entry has been encrypted using an *Enchanted Shifting Cipher*, and our goal
 ## 📚 Table of Contents
 
 - [Challenge Description 📜](#challenge-description-)
-- [🏛️ What is a Caesar Cipher?](#-what-is-a-caesar-cipher)
+- [What is a Caesar Cipher? 🏛️](#-what-is-a-caesar-cipher-)
 - [Example 🔍](#example-)
 - [Solution 🤩](#solution-)
 - [Code 🦖](#code-)
@@ -37,7 +37,7 @@ Each entry has been encrypted using an *Enchanted Shifting Cipher*, and our goal
    - The number of shift groups.
    - A list of shift values (integers between 1 and 25), one for each group, in order.
 
-## 🏛️ What is a Caesar Cipher?
+## What is a Caesar Cipher? 🏛️
 
 The **Caesar cipher** is one of the oldest and simplest encryption techniques. Named after Julius Caesar (who reportedly used it to protect military messages), it works by shifting each letter in the plaintext by a fixed number of positions in the alphabet.
 
