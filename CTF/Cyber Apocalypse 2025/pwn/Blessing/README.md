@@ -110,3 +110,5 @@ This challenge looked deceptively simple, but it required understanding:
 - A clean "write-what-where" scenario without any classic overflow
 
 Sometimes, all it takes is one invalid malloc() to take down a dragon. 🐉✨
+
+🔙 [Back to Cyber Apocalypse 2025 Writeups](../../)
