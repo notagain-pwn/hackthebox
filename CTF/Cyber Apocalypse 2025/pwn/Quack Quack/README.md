@@ -24,6 +24,8 @@ We can see that there is a canary. Then, in Ghidra:
 
 ![image](https://github.com/user-attachments/assets/ab52d254-fd1b-4f6b-8f73-2976fce00e0d)
 
+## Key observation 🔍
+
 We can see that in the first input, we must put "Quack Quack ", otherwise the binary displays "Where are your Quack Manners?!" and exit.
 
 Four interesting lines here:
@@ -31,6 +33,8 @@ Four interesting lines here:
 - `pcVar1 = strstr((char *)&local_88, "Quack Quack ");` → finds the position of our marker string
 - `printf("Quack Quack %s, ready to fight the Duck?\n\n> ", pcVar1 + 0x20);` → prints data starting 32 bytes after our string (leak!)
 - `read(0, &local_68, 0x6a);` → overflow is possible here (stack write past the buffer)
+
+## Vulnerabilities 🧠
 
 This 0x20 offset lets us leak data from the stack, starting 0x20 bytes after our "Quack Quack ", which helps us reach part of the canary.
 
