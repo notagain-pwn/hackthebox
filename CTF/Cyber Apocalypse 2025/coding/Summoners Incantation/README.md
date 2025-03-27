@@ -1,9 +1,9 @@
 ---
-title: "The Summoner's Incantation – Max Non-Adjacent Sum (HTB Cyber Apocalypse 2025)"
+title: "Summoners Incantation – Max Non-Adjacent Sum (HTB Cyber Apocalypse 2025)"
 tags: [CTF, python, dynamic programming, coding]
 ---
 
-# The Summoner's Incantation 🔮
+# Summoners Incantation 🔮
 
 ![Python](https://img.shields.io/badge/language-Python-blue.svg)
 ![Difficulty](https://img.shields.io/badge/difficulty-Easy-blue.svg)
