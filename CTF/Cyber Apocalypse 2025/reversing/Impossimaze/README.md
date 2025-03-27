@@ -51,6 +51,8 @@ if ((uVar3 == 0xd) && (uVar4 == 0x25)) {
 }
 ```
 
+![Ghidra reversing](https://github.com/user-attachments/assets/5350802b-d741-4e57-8bcf-378f1215da99)
+
 Which means:
 - Height = 0xD = 13 (in decimal)
 - Width  = 0x25 = 37 (in decimal)
