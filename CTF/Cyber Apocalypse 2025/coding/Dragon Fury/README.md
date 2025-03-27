@@ -30,6 +30,7 @@ Simulate the battle by computing the total damage dealt over successive rounds u
 ## Challenge Description 📜
 
 In the epic battle against Malakar's dark forces, the ancient dragons must unleash a series of precise attacks.  
+
 Each attack round offers several potential damage values—but only one combination of attacks will **sum up exactly** to the damage required to vanquish the enemy.
 
 Can you guide the dragons to unleash the perfect fury?
