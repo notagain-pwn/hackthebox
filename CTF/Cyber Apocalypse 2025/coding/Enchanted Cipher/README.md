@@ -17,7 +17,7 @@ Each entry has been encrypted using an *Enchanted Shifting Cipher*, and our goal
 ## 📚 Table of Contents
 
 - [Challenge Description 📜](#challenge-description-)
-- [What is a Caesar Cipher? 🏛️](#-what-is-a-caesar-cipher-)
+- [What is a Caesar Cipher? 🏛️](#-what-is-a-caesar-cipher-%EF%B8%8F)
 - [Example 🔍](#example-)
 - [Solution 🤩](#solution-)
 - [Code 🦖](#code-)
