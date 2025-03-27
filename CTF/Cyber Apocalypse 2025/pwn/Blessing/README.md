@@ -16,7 +16,7 @@ Through exploits and tricks, they boldly dare, To conquer Eldoria, with skill an
 
 ## 📚 Table of Contents
 
-- [Initial Inspection 🕵️](#initial-inspection-)
+- [Initial Inspection 🕵️](#initial-inspection-%EF%B8%8F)
 - [Key observation 🔍](#key-observation-)
 - [Vulnerability 🧠](#vulnerability-)
 - [The Revelation 💡](#the-revelation-)
