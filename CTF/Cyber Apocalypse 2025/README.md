@@ -15,7 +15,7 @@ Amidst the chaos, fate weaves together a diverse group of adventurers, each affe
 - [Blessing 🙏✨](./pwn/Blessing)
 
 ## 🧠💻 Coding
-- [Enchanted Cipher](./coding/Enchanted%20Cipher)
+- [Enchanted Cipher 🔐](./coding/Enchanted%20Cipher)
 
 _More coming soon..._
 
