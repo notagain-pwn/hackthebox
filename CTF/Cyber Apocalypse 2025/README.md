@@ -21,6 +21,9 @@ Amidst the chaos, fate weaves together a diverse group of adventurers, each affe
 - [Clockwork Guardian ⏰](./coding/Clockwork%20Guardian)
 - [Dragon Flight 🛫](./coding/Dragon%20Flight)
 
+## 🕵️ Forensics
+- [A New Hire 📁](./forensics/A%20New%20Hire)
+
 _More coming soon..._
 
 ![canvas](https://github.com/user-attachments/assets/8e1a4f97-bc1b-4273-8211-cfef709750b6)
