@@ -16,6 +16,7 @@ Amidst the chaos, fate weaves together a diverse group of adventurers, each affe
 
 ## 🧠💻 Coding
 - [Enchanted Cipher 🔐](./coding/Enchanted%20Cipher)
+- [Summoners Incantation 🔮](./coding/Summoners%20Incantation)
 
 _More coming soon..._
 
