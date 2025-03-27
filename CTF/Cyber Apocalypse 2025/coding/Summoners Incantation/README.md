@@ -26,6 +26,7 @@ However, the tokens are delicate; no two adjacent tokens can be combined without
 ## Challenge Description 📜
 
 Deep within the ancient halls lies the secret of the Dragon's Heart—a power that can only be unlocked by combining magical tokens in just the right way.  
+
 But beware: if you combine two adjacent tokens, their energy is lost forever to the void.
 
 Your task is to determine the **maximum amount of energy** that can be harnessed by selecting tokens such that **no two selected tokens are adjacent**.
