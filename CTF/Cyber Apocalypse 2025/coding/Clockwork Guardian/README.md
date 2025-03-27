@@ -18,7 +18,7 @@ You must navigate the spire, avoiding hostile sentinels and finding the safest p
 
 - [Challenge Description 📜](#challenge-description-)
 - [Example Grid 🔍](#example-grid-)
-- [Solution Strategy ⚙️](#solution-strategy-)
+- [Solution Strategy ⚙️](#solution-strategy-%EF%B8%8F)
 - [Code 🧪](#code-)
 - [Notes 📋](#notes-)
 - [Conclusion 🧾](#conclusion-)
