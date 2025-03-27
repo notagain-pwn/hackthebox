@@ -14,6 +14,16 @@ On the quest to reclaim the Dragon's Heart, the wicked Lord Malakar has cursed t
 
 **Quack Quack**, it's time to face the Duck!
 
+## 📚 Table of Contents
+
+- [Initial Inspection 🕵️](#initial-inspection-)
+- [Key observation 🔍](#key-observation-)
+- [Vulnerabilities 🧠](#vulnerabilities-)
+- [Stack Overflow Explained 🧵](#stack-overflow-explained-)
+- [📌 Stack layout (simplified)](#-stack-layout-simplified)
+- [Full exploit 🎯](#full-exploit-)
+- [Conclusion 🧠](#conclusion-)
+
 ## Initial Inspection 🕵️
 
 First we can check the protections enabled on the binary:
@@ -165,3 +175,4 @@ Sir Alaric wins again — without harming a single duck. 🦆✨
 
 Final result: a clean ret2win exploit using stack leak, canary bypass, and precise buffer control — all thanks to a duck 🦆
 
+🔙 [Back to Cyber Apocalypse 2025 Writeups](../../)
