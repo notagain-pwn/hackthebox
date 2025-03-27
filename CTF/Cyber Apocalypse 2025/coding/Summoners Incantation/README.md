@@ -10,12 +10,9 @@ tags: [CTF, python, dynamic programming, coding]
 ![Category](https://img.shields.io/badge/category-Coding-lightgrey.svg)
 ![CTF](https://img.shields.io/badge/Event-HTB%20Cyber%20Apocalypse%202025-purple)
 
-Deep within the ancient halls lies the secret of the Dragon's Heart—a power that can only be unlocked by combining magical tokens in just the right way.  
-But beware: if you combine two adjacent tokens, their energy is lost forever to the void.
+To awaken the ancient power of the Dragon's Heart, the summoners must combine magical incantation tokens. 
 
-Your task is to determine the **maximum amount of energy** that can be harnessed by selecting tokens such that **no two selected tokens are adjacent**.
-
-This challenge maps to a classic dynamic programming problem: **the Maximum Sum of Non-Adjacent Elements**.
+However, the tokens are delicate; no two adjacent tokens can be combined without losing their energy. The optimal incantation is the maximum sum obtainable by choosing non-adjacent tokens.
 
 ## 📚 Table of Contents
 
@@ -27,6 +24,13 @@ This challenge maps to a classic dynamic programming problem: **the Maximum Sum 
 - [Conclusion 🧾](#conclusion-)
 
 ## Challenge Description 📜
+
+Deep within the ancient halls lies the secret of the Dragon's Heart—a power that can only be unlocked by combining magical tokens in just the right way.  
+But beware: if you combine two adjacent tokens, their energy is lost forever to the void.
+
+Your task is to determine the **maximum amount of energy** that can be harnessed by selecting tokens such that **no two selected tokens are adjacent**.
+
+This challenge maps to a classic dynamic programming problem: **the Maximum Sum of Non-Adjacent Elements**.
 
 **Input:**
 - A single line containing a Python-style list of integers.
