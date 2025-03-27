@@ -10,6 +10,12 @@ Amidst the chaos, fate weaves together a diverse group of adventurers, each affe
 
 ---
 
+## ✍️ Disclaimer
+
+All writeups here are for challenges I solved solo.
+
+While we tackled more challenges as a team, I’m only sharing those where I personally worked through the solution end-to-end.
+
 ## 🛠️ Pwn
 - [Quack Quack 🦆](./pwn/Quack%20Quack)
 - [Blessing 🙏✨](./pwn/Blessing)
@@ -27,6 +33,8 @@ Amidst the chaos, fate weaves together a diverse group of adventurers, each affe
 
 ## 🔎 Reversing
 - [Impossimaze 🎭](./reversing/Impossimaze)
+
+---
 
 ![canvas](https://github.com/user-attachments/assets/8e1a4f97-bc1b-4273-8211-cfef709750b6)
 
