@@ -22,8 +22,6 @@ Each entry has been encrypted using an *Enchanted Shifting Cipher*, and our goal
 - [Solution 🤩](#solution-)
 - [Code 🦖](#code-)
 - [Notes 📋](#notes-)
-- [Files 📁](#files-)
-- [Sample Test ✅](#sample-test-)
 - [Conclusion 🧾](#conclusion-)
 
 ## Challenge Description 📜
@@ -121,24 +119,6 @@ print(decoded)
 - Designed to be easily adaptable to handle uppercase letters or punctuation if needed.
 - Can be reused as a helper tool for similar grouped cipher patterns.
 
-## Files 📁
-
-- `solution.py` – Python script with decryption logic.
-- `README.md` – This documentation.
-
-## Sample Test ✅
-
-**Input:**
-```
-pdobgjvyn
-2
-[3, 10]
-```
-
-**Output:**
-```
-magickey
-```
 ## Conclusion 🧾
 
 A classic Caesar cipher? Not quite. 🧙‍♂️
