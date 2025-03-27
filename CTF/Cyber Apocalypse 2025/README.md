@@ -8,8 +8,6 @@ With the artifact in his grasp, Malakar gains the ability to control dragons, cr
 
 Amidst the chaos, fate weaves together a diverse group of adventurers, each affected by Malakar's tyranny in personal ways. They form a fellowship bound by a common goal: to reclaim the Dragon's Heart and restore peace to Eldoria.
 
----
-
 ## ✍️ Disclaimer
 
 All writeups here are for challenges I solved solo.
