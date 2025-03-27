@@ -17,3 +17,4 @@ This repository contains my personal solutions, exploits, and notes for various 
 - 🧠 [CTF Platform](https://ctf.hackthebox.com/user/profile/638913)
 - 🛠️ [HTB Labs](https://app.hackthebox.com/profile/227048)
 - 🧑‍💻 [CTFtime.org profile](https://ctftime.org/user/222223)
+- 🤝 [CTFtime.org team](https://ctftime.org/team/376125)
