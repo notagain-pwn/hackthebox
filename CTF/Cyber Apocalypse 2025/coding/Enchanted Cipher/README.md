@@ -135,3 +135,5 @@ This one came enchanted with just enough magic (aka random shifts and grouping t
 Nothing too deep technically, but a great reminder that even the most basic crypto can turn sneaky with the right twist. Perfect as an intro-level coding puzzle or a warm-up before diving into heavier crypto.
 
 **Lesson learned?** Always read the rules twice, and never trust a wizard with a cipher. 🔥
+
+🔙 [Back to Cyber Apocalypse 2025 Writeups](../../)
