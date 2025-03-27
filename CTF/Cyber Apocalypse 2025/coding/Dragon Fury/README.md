@@ -14,8 +14,6 @@ In the final confrontation, the dragons unleash their fury against Malakar’s f
 
 Simulate the battle by computing the total damage dealt over successive rounds until victory is achieved.
 
----
-
 ## 📚 Table of Contents
 
 - [Challenge Description 📜](#challenge-description-)
@@ -24,8 +22,6 @@ Simulate the battle by computing the total damage dealt over successive rounds u
 - [Code 🧪](#code-)
 - [Notes 📋](#notes-)
 - [Conclusion 🧾](#conclusion-)
-
----
 
 ## Challenge Description 📜
 
