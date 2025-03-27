@@ -14,6 +14,18 @@ A mysterious cipher has corrupted historical records in the Grand Arcane Codex.
 
 Each entry has been encrypted using an *Enchanted Shifting Cipher*, and our goal is to **restore the original plaintext** made up of 3–7 randomly generated words.
 
+## 📚 Table of Contents
+
+- [Challenge Description 📜](#challenge-description-)
+- [🏛️ What is a Caesar Cipher?](#-what-is-a-caesar-cipher)
+- [Example 🔍](#example-)
+- [Solution 🤩](#solution-)
+- [Code 🦖](#code-)
+- [Notes 📋](#notes-)
+- [Files 📁](#files-)
+- [Sample Test ✅](#sample-test-)
+- [Conclusion 🧾](#conclusion-)
+
 ## Challenge Description 📜
 
 ### Cipher Rules:
