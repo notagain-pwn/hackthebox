@@ -100,7 +100,7 @@ print(io.recvall())
 
 Pwned! 🙏✨
 
-## 🧠 Conclusion
+## Conclusion 🧠
 
 This challenge looked deceptively simple, but it required understanding:
 
