@@ -8,9 +8,14 @@ With the artifact in his grasp, Malakar gains the ability to control dragons, cr
 
 Amidst the chaos, fate weaves together a diverse group of adventurers, each affected by Malakar's tyranny in personal ways. They form a fellowship bound by a common goal: to reclaim the Dragon's Heart and restore peace to Eldoria.
 
-## Pwn 🛠️
+---
+
+## 🛠️ Pwn
 - [Quack Quack 🦆](./pwn/Quack%20Quack)
 - [Blessing 🙏✨](./pwn/Blessing)
+
+## 🧠💻 Coding
+- [Enchanted Cipher](./coding/Enchanted%20Cipher)
 
 _More coming soon..._
 
