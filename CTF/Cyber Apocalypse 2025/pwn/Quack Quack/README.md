@@ -20,7 +20,7 @@ On the quest to reclaim the Dragon's Heart, the wicked Lord Malakar has cursed t
 - [Key observation 🔍](#key-observation-)
 - [Vulnerabilities 🧠](#vulnerabilities-)
 - [Stack Overflow Explained 🧵](#stack-overflow-explained-)
-- [📌 Stack layout (simplified)](#-stack-layout-simplified)
+- [Stack layout (simplified) 📌](#-stack-layout-simplified)
 - [Full exploit 🎯](#full-exploit-)
 - [Conclusion 🧠](#conclusion-)
 
@@ -93,7 +93,7 @@ read(0, &local_88, 0x66); // First read (102 bytes)
 read(0, &local_68, 0x6a); // Second read (106 bytes) - the overflow
 ```
 
-## 📌 Stack layout (simplified)
+## Stack layout (simplified) 📌
 
 Here’s how the local variables are laid out on the stack:
 
