@@ -17,7 +17,7 @@ At first glance, it appears to be an ordinary record of his achievements as a no
 ## 📚 Table of Contents
 
 - [Challenge Overview 🕵️](#challenge-overview-%EF%B8%8F)
-- [Email Lead ✉️](#email-lead-)
+- [Email Lead ✉️](#email-lead-%EF%B8%8F)
 - [JavaScript Clue 🔍](#javascript-clue-)
 - [Accessing the Hidden Path 🌐](#accessing-the-hidden-path-)
 - [Payload Discovery 🧪](#payload-discovery-)
