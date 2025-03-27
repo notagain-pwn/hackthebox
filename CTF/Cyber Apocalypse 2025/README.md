@@ -23,6 +23,7 @@ Amidst the chaos, fate weaves together a diverse group of adventurers, each affe
 
 ## 🕵️ Forensics
 - [A New Hire 📁](./forensics/A%20New%20Hire)
+- [Thorin's Amulet 🖥️](./forensics/Thorin%27s%20Amulet)
 
 _More coming soon..._
 
