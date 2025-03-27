@@ -25,6 +25,25 @@ Each entry has been encrypted using an *Enchanted Shifting Cipher*, and our goal
    - The number of shift groups.
    - A list of shift values (integers between 1 and 25), one for each group, in order.
 
+## 🏛️ What is a Caesar Cipher?
+
+The **Caesar cipher** is one of the oldest and simplest encryption techniques. Named after Julius Caesar (who reportedly used it to protect military messages), it works by shifting each letter in the plaintext by a fixed number of positions in the alphabet.
+
+For example, with a shift of 3:
+- `a` → `d`
+- `b` → `e`
+- `c` → `f`
+- and so on...
+
+It wraps around at the end, so:
+- `x` → `a`
+- `y` → `b`
+- `z` → `c`
+
+👉 It’s easy to implement, easy to break — but still a fun starting point for exploring classical ciphers!
+
+In this challenge, the Caesar cipher is enhanced with random shifts and grouping, making it slightly trickier than the original.
+
 ## Example 🔍
 
 **Input:**
