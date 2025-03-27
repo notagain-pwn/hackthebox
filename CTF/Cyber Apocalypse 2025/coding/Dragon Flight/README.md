@@ -17,7 +17,7 @@ However, unpredictable wind conditions can either boost or hinder their journeys
 ## 📚 Table of Contents
 
 - [Challenge Description 📜](#challenge-description-)
-- [Flight Example ✈️](#flight-example-)
+- [Flight Example ✈️](#flight-example-%EF%B8%8F)
 - [Solution Strategy 🧠](#solution-strategy-)
 - [Code 🧪](#code-)
 - [Notes 📋](#notes-)
