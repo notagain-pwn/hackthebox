@@ -10,9 +10,11 @@ tags: [CTF, python, enhanced caesar shift, coding]
 ![Category](https://img.shields.io/badge/category-Coding-lightgrey.svg)
 ![CTF](https://img.shields.io/badge/Event-HTB%20Cyber%20Apocalypse%202025-purple)
 
-A mysterious cipher has corrupted historical records in the Grand Arcane Codex. 
+The Grand Arcane Codex has been corrupted, altering historical records. 
 
-Each entry has been encrypted using an *Enchanted Shifting Cipher*, and our goal is to **restore the original plaintext** made up of 3–7 randomly generated words.
+Each entry has been encoded with a shifting cipher that changes every N characters. 
+
+Your task is to decode a given string and restore the original message.
 
 ## 📚 Table of Contents
 
@@ -25,6 +27,10 @@ Each entry has been encrypted using an *Enchanted Shifting Cipher*, and our goal
 - [Conclusion 🧾](#conclusion-)
 
 ## Challenge Description 📜
+
+A mysterious cipher has corrupted historical records in the Grand Arcane Codex. 
+
+Each entry has been encrypted using an *Enchanted Shifting Cipher*, and our goal is to **restore the original plaintext** made up of 3–7 randomly generated words.
 
 ### Cipher Rules:
 
