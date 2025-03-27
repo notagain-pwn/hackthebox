@@ -14,8 +14,6 @@ In the realm of Eldoria, where warriors roam, The Dragon's Heart they seek, from
 
 Through exploits and tricks, they boldly dare, To conquer Eldoria, with skill and flair.
 
----
-
 ## Initial Inspection 🕵️ 
 
 Let’s begin by checking the binary protections:
