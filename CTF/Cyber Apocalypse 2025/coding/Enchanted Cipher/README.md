@@ -3,7 +3,7 @@ title: "Enchanted Cipher – Enhanced Caesar shift (HTB Cyber Apocalypse 2025)"
 tags: [CTF, python, enhanced caesar shift, coding]
 ---
 
-# Locked Book – The Enchanted Cipher 🔐
+# Locked Book – Enchanted Cipher 🔐
 
 ![Python](https://img.shields.io/badge/language-Python-blue.svg)
 ![Difficulty](https://img.shields.io/badge/difficulty-Easy-blue.svg)
