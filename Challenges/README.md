@@ -27,6 +27,7 @@ Each folder contains a fully documented exploitation path with code, screenshots
 | Challenge Name | Category | Difficulty | Writeup |
 |----------------|----------|------------|---------|
 | **El Teteo 🔥** | Pwn      | Easy       | [View](./pwn/El%20Teteo/) |
+| **Mathematricks 🧠** | Pwn   | Easy       | [View](./pwn/Mathematricks/) |
 | *(More soon...)*|          |            |         |
 
 ## 🧾 Notes
