@@ -129,4 +129,4 @@ This challenge was a classic example of a **stack-based shellcode injection** ma
 
 By keeping the shellcode under 31 bytes, we successfully popped a shell and retrieved the flag.
 
-🔙 [Back to Challenges Writeups](../../)
+🔙 [Back to Challenge Writeups](../../)
