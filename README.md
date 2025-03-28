@@ -11,6 +11,7 @@ This repository contains my personal solutions, exploits, and notes for various 
 ## 📚 Featured Writeups
 
 - ⚔️ [Cyber Apocalypse 2025 (CTF)](./CTF/Cyber%20Apocalypse%202025/README.md) — Writeups from the latest HTB global CTF event.
+- 📦 [Standalone Challenges](./Challenges/README.md) — Pwn, reversing, crypto, web, and more.
 
 ## 🌍 Profiles
 
