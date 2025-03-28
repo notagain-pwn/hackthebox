@@ -132,10 +132,10 @@ def main():
 
     emoji_prompt = b'\xf0\x9f\xa5\xb8 '  # 🥸 prompt in UTF-8
 
-    p.sendlineafter(emoji_prompt, b'1')             # Q1: 1 + 1 = ?
-    p.sendlineafter(b'> ', b'2')                    # Q2: 2 - 1 = ?
-    p.sendlineafter(b'> ', b'1')                    # Q3: 1337 - 1337 = ?
-    p.sendlineafter(b'> ', b'0')                    # Q4 dummy input
+    p.sendlineafter(emoji_prompt, b'1')             # Enter in game
+    p.sendlineafter(b'> ', b'2')                    # Q1: 1 + 1 = ?
+    p.sendlineafter(b'> ', b'1')                    # Q2: 2 - 1 = ?
+    p.sendlineafter(b'> ', b'0')                    # Q3: 1337 - 1337 = ?
     p.sendlineafter(b'n1: ', b'1')                  # n1
     p.sendlineafter(b'n2: ', b'1337133713371337')   # crafted value for overflow
 
