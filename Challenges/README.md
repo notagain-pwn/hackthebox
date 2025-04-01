@@ -28,7 +28,7 @@ Each folder contains a fully documented exploitation path with code, screenshots
 |----------------|----------|------------|---------|
 | **El Teteo 🔥** | Pwn      | Easy       | [View](./pwn/El%20Teteo/) |
 | **Mathematricks 🧠** | Pwn   | Easy       | [View](./pwn/Mathematricks/) |
-| *(More soon...)*|          |            |         |
+| **El Pipo 👻**|  Pwn   | Easy       | [View](./pwn/El%20Pipo/) |
 
 ## 🧾 Notes
 
