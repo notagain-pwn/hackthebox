@@ -32,11 +32,4 @@ While we tackled more challenges as a team, I’m only sharing those where I per
 ## 🔎 Reversing
 - [Impossimaze 🎭](./reversing/Impossimaze)
 
----
-
-![canvas](https://github.com/user-attachments/assets/8e1a4f97-bc1b-4273-8211-cfef709750b6)
-
-- 🧑‍💻 [CTFtime.org profile](https://ctftime.org/user/222223)
-- 🤝 [CTFtime.org team](https://ctftime.org/team/376125)
-
 🔙 [Back](../../)
