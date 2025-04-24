@@ -89,18 +89,21 @@ So the next execution after the show_stack function is:
 Main function starts at `0x00000000000016a0`. With gdb, we can easily find the distance of these addresses:
 
 ```c
+pwndbg> disass main
+Dump of assembler code for function main:
+   ...
    0x00000000000017dc <+316>:	call   0x11f5 <win>
    ...
 End of assembler dump.
 pwndbg> distance 0x00000000000016a0 0x0000000000001727
 0x16a0->0x1727 is 0x87 bytes (0x10 words)
-pwndbg> distance 0x00000000000016a0 0x00000000000017dc
-0x16a0->0x17dc is 0x13c bytes (0x27 words)
+pwndbg> distance 0x00000000000011f5 0x00000000000016a0
+0x11f5->0x16a0 is 0x4ab bytes (0x95 words)
 ```
 
 This leaked return address corresponds to the instruction at main + 0x87, which is just after the call to show_stack.
 
-Same for the win function, we are able to see that there are 0x13c bytes between main and the win function.
+Same for the win function, we are able to see that there are 0x4ab bytes between main and the win function.
 
 We can use it to get the PIE base, and calculate the win address.
 
@@ -112,6 +115,10 @@ win_offset = 0x11f5  # from ELF symbols
 base = leaked_ret - offset_to_ret - main_offset
 win_addr = base + win_offset
 ```
+
+Or `win_addr = leaked_ret - offset_to_ret - 0x4ab`, as `leaked_ret - offset_to_ret` is the runtime address of main, and `0x4ab` the distance between main and win.
+
+But the first solution is better as we use dynamic offsets from ELF symbols. 
 
 This gives us the **actual runtime address of `win()`**, despite PIE.
 
