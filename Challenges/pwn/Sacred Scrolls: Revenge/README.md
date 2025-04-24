@@ -37,7 +37,7 @@ NX:       Enabled
 PIE:      Disabled (0x400000)
 ```
 
-## Static Analysis with Ghidra
+## Static Analysis with Ghidra 🔬
 
 There are few interesting functions, like spell_upload, spell_read, spell_save and the main function itself.
 
