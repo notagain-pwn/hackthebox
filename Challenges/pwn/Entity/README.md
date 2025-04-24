@@ -1,5 +1,5 @@
 ---
-title: "Entity 👻 - Exploit Writeup (Type Confusion, union trick)"
+title: "Entity 👻 - Type Confusion, union trick"
 tags: [HTB, pwn, C logic, union abuse, enum tricks]
 ---
 
@@ -15,6 +15,15 @@ tags: [HTB, pwn, C logic, union abuse, enum tricks]
 > Well, a lot of things, like playing CTFs, but you know what's definitely not better? Something coming out of your TV!
 
 A spooky `union` lets you trick logic into leaking the flag.
+
+## 📚 Table of Contents
+- [Binary Info 🧠](#binary-info-)
+- [Code Analysis 🔍](#code-analysis-)
+- [Vulnerability Summary 🧩](#vulnerability-summary-)
+- [Exploit Strategy ✅](#exploit-strategy-)
+- [Exploit Script 💣](#exploit-script-)
+- [Exploitation Output 🎯](#exploitation-output-)
+- [Conclusion 📘](#conclusion-)
 
 ## Binary Info 🧠
 
