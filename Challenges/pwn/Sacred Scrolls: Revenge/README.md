@@ -19,8 +19,8 @@ A cursed scroll and an insecure spell-loading mechanism—mix that with some ROP
 ## 📚 Table of Contents
 - [Binary Protections 🛡️](#binary-protections-️)
 - [Static Analysis with Ghidra 🔬](#static-analysis-with-ghidra-)
-- [Vulnerability Analysis 🔍](#vulnerability-analysis-)
 - [Leak Explanation 🩻](#leak-explanation-)
+- [Vulnerability Analysis 🔍](#vulnerability-analysis-)
 - [Exploit Strategy 💣](#exploit-strategy-)
 - [ROP Chain Construction 🧱](#rop-chain-construction-)
 - [Exploit Script 🧨](#exploit-script-)
