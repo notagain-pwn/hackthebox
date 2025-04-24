@@ -3,12 +3,12 @@ title: "Mathematricks 🧠 - Signed Integer Overflow Exploit Writeup"
 tags: [HTB, binary exploitation, signed overflow, pwn]
 ---
 
-![pwntools](https://img.shields.io/badge/pwntools-✔️-brightgreen)
-![Difficulty](https://img.shields.io/badge/difficulty-Easy-blue)
-![Category](https://img.shields.io/badge/category-Pwn-orange)
-![Challenge](https://img.shields.io/badge/Challenge-red)
-
 # Mathematricks 🧠
+
+![Category](https://img.shields.io/badge/category-Pwn-orange)
+![Difficulty](https://img.shields.io/badge/difficulty-Easy-blue)
+![Platform](https://img.shields.io/badge/platform-Linux-blue)
+![HTB](https://img.shields.io/badge/HTB-Challenge-green)
 
 How about a magic trick? Or a math trick? Beat me and I will give you an amazing reward!
 

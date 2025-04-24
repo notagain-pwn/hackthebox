@@ -5,10 +5,10 @@ tags: [HTB, binary exploitation, stack overflow, pwn]
 
 # El Pipo 👻
 
-![pwntools](https://img.shields.io/badge/pwntools-✔️-brightgreen)
-![Difficulty](https://img.shields.io/badge/difficulty-Easy-blue)
 ![Category](https://img.shields.io/badge/category-Pwn-orange)
-![Challenge](https://img.shields.io/badge/Challenge-red)
+![Difficulty](https://img.shields.io/badge/difficulty-Easy-blue)
+![Platform](https://img.shields.io/badge/platform-Linux-blue)
+![HTB](https://img.shields.io/badge/HTB-Challenge-green)
 
 > An ancient spirit, El Pipo, has taken control of this place. Face your fears and try to drive it away with your most vicious scream!
 

@@ -5,10 +5,10 @@ tags: [HTB, binary exploitation, shellcode, stack exec, pwn]
 
 # El Teteo 🔥
 
-![pwntools](https://img.shields.io/badge/pwntools-✔️-brightgreen)
-![Difficulty](https://img.shields.io/badge/difficulty-Easy-blue)
 ![Category](https://img.shields.io/badge/category-Pwn-orange)
-![Challenge](https://img.shields.io/badge/Challenge-red)
+![Difficulty](https://img.shields.io/badge/difficulty-Easy-blue)
+![Platform](https://img.shields.io/badge/platform-Linux-blue)
+![HTB](https://img.shields.io/badge/HTB-Challenge-green)
 
 El Teteo, a mischievous ghostly djinni born with a party spirit. You have one chance to summon it and make your wish—but only if it’s in the mood to grant it.
 
