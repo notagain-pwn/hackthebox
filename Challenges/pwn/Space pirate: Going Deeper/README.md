@@ -153,7 +153,7 @@ Dump of assembler code for function admin_panel:
    ...
 ```
 
-We can see that at the admin_panel +292 we all this printf function:
+We can see that at the admin_panel +292 we use this printf function:
 
 `printf("\n%s[+] Welcome admin! The secret message is: ",&DAT_00400c38);`
 
