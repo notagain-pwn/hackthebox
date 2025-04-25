@@ -1,9 +1,9 @@
 ---
-title: "Going Deeper 🧬 - Buffer Overflow + Jump Into Function"
+title: "Space pirate: Going Deeper 🧬 - Buffer Overflow + Jump Into Function"
 tags: [HTB, pwn, logic bug, buffer overflow, ELF internals, redirect]
 ---
 
-# Going Deeper 🧬
+# Space pirate: Going Deeper 🧬
 
 ![Category](https://img.shields.io/badge/category-Pwn-orange)
 ![Difficulty](https://img.shields.io/badge/difficulty-Easy-blue)
