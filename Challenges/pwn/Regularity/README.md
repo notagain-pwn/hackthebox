@@ -199,6 +199,11 @@ if __name__ == "__main__":
     main()
 ```
 
+```bash
+python3 exploit.py
+python3 exploit.py --host 1.2.3.4 --port 1337
+```
+
 ## Exploitation Result ✅
 
 ```

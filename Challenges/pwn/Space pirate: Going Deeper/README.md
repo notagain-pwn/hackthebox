@@ -222,8 +222,8 @@ if __name__ == "__main__":
 ```
 
 ```bash
-python3 sp_going_deeper_exploit.py
-python3 sp_going_deeper_exploit.py --host 1.2.3.4 --port 1337
+python3 exploit.py
+python3 exploit.py --host 1.2.3.4 --port 1337
 ```
 
 ## Output 🎯

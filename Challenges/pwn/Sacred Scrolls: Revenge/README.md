@@ -366,8 +366,8 @@ if __name__ == '__main__':
 - Fully dynamic gadget and address discovery
 
 ```bash
-python3 sacred_scrolls_exploit_final.py
-python3 sacred_scrolls_exploit_final.py --host 1.2.3.4 --port 1337
+python3 exploit.py
+python3 exploit.py --host 1.2.3.4 --port 1337
 ```
 
 ## Exploitation Result ✅
